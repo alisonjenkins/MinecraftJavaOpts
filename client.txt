@@ -1,0 +1,25 @@
+-server 
+-d64
+-XX:UseSSE=4 
+-XX:+UseParNewGC
+-XX:+UseConcMarkSweepGC 
+-XX:+CMSIncrementalMode 
+-XX:+CMSIncrementalPacing 
+-XX:+UseCMSCompactAtFullCollection 
+-XX:+CMSScavengeBeforeRemark 
+-XX:+UseParNewGC 
+-XX:SurvivorRatio=4 
+-XX:NewSize=128m 
+-XX:MaxNewSize=128m 
+-XX:+DisableExplicitGC 
+-XX:+AggressiveOpts 
+-XX:MaxGCPauseMillis=50 
+-XX:+UseLargePages 
+-XX:LargePageSizeInBytes=2m 
+-XX:+UseStringCache 
+-XX:CompileThreshold=500 
+-XX:+UseFastAccessorMethods 
+-XX:+UseBiasedLocking 
+-XX:+OptimizeStringConcat 
+-Dsun.net.client.defaultConnectTimeout=1000 
+-agentpath:"C:\Program Files (x86)\YourKit Java Profiler 12.0.6\bin\win64\yjpagent.dll"  
