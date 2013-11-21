@@ -22,4 +22,3 @@
 -XX:+UseBiasedLocking 
 -XX:+OptimizeStringConcat 
 -Dsun.net.client.defaultConnectTimeout=1000 
--agentpath:"C:\Program Files (x86)\YourKit Java Profiler 12.0.6\bin\win64\yjpagent.dll"  
